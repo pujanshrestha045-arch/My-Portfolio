@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import '../css/Header.css'
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false)
