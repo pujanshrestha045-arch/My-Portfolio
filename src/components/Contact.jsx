@@ -76,7 +76,7 @@ function Contact() {
             </div>
 
             <button type='submit'
-            className='w-full p-3 rounded-lg font-semibold'>
+            className='w-full bg-(--primary) text-(--primary-foreground) py-3 rounded-lg font-semibold hover:opacity-90'>
               Send Message
             </button>
 
