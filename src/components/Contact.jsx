@@ -92,7 +92,7 @@ function Contact() {
 
           <div className="text-center">
             <p className='font-semibold mb-4 text-(--foreground)'>Or Find me on</p>
-            <div className="flex flex-col items-center md:flex-row justify-center gap-6">
+            <div className="flex flex-wrap items-center justify-center gap-6">
               <a 
                 href="#"
                 className='inline-flex items-center gap-2'
