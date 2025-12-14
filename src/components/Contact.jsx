@@ -26,15 +26,15 @@ function Contact() {
 
   return (
     <>
-      <section id='contact' className='py-20 px-4'>
+      <section id='contact' className='py-20 px-4 bg-(--muted)/10'>
         <div className="container mx-auto">
-          <h2>Let's Connect</h2>
-          <p>I'm always interested in discussing new projects and opportunities. Feel free to reach out!</p>
+          <h2 className='text-2xl md:text-4xl font-bold text-(--foreground) mb-12 text-balance'>Let's Connect</h2>
+          <p className='text-lg text-(--muted-foreground) mb-12'>I'm always interested in discussing new projects and opportunities. Feel free to reach out!</p>
 
           {/* Contact Form */}
-          <form className="rounded-lg p-8 mb-12" onSubmit={handleSubmit}>
+          <form className="bg-(--card) rounded-lg p-8 mb-12 border border-(--border)" onSubmit={handleSubmit}>
             <div className="mb-6">
-              <label htmlFor="name" className='block font-semibold mb-2'>Name</label>
+              <label htmlFor="name" className='block text-(--foreground) font-semibold mb-2'>Name</label>
               <input
                 type="text"
                 name="name"
@@ -42,13 +42,13 @@ function Contact() {
                 value={formData.name}
                 required
                 onChange={handleChange}
-                className='w-full rounded-lg px-4 py-3'
+                className='w-full rounded-lg px-4 py-3 bg-(--background) border border-(--border) placeholder-(--muted-foreground)'
                 placeholder='Your Name'
               />
             </div>
 
             <div className="mb-6">
-              <label htmlFor="email" className='block font-semibold mb-2'>Email</label>
+              <label htmlFor="email" className='block text-(--foreground) font-semibold mb-2'>Email</label>
               <input
                 type="email"
                 name="email"
@@ -56,13 +56,13 @@ function Contact() {
                 value={formData.email}
                 required
                 onChange={handleChange}
-                className='w-full rounded-lg px-4 py-3'
+                className='w-full rounded-lg px-4 py-3 bg-(--background) border border-(--border) placeholder-(--muted-foreground)'
                 placeholder='your.email@example.com'
               />
             </div>
 
             <div className="mb-6">
-              <label htmlFor="message" className='block font-semibold mb-2'>Message</label>
+              <label htmlFor="message" className='block text-(--foreground) font-semibold mb-2'>Message</label>
               <textarea
                 name="message"
                 id="message"
@@ -70,7 +70,7 @@ function Contact() {
                 required
                 rows={5}
                 onChange={handleChange}
-                className='w-full rounded-lg px-4 py-3'
+                className='w-full rounded-lg px-4 py-3 bg-(--background) border border-(--border) placeholder-(--muted-foreground)'
                 placeholder='Your message...'>
               </textarea>
             </div>

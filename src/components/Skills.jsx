@@ -15,7 +15,7 @@ function Skills() {
         "VS Code",
         "Figma",
         "Chrome DevTools",
-        "npm/yarn",
+        "npm",
         "Debugging",
         "Cross-browser Testing",
     ]
@@ -32,17 +32,17 @@ function Skills() {
 
     return (
         <>
-            <section id='skills' className='py-20 px-4'>
+            <section id='skills' className='py-20 px-4 bg-(--muted)/10'>
                 <div className="container mx-auto">
-                    <h2>Skills & Expertise</h2>
+                    <h2 className='text-2xl md:text-4xl font-bold text-(--foreground) mb-12 text-balance'>Skills & Expertise</h2>
                     <div className="grid md:grid-cols-3 gap-8">
                         {/* Frontend Development */}
-                        <div className="rounded-lg p-8 border">
-                            <h3>Frontend Development</h3>
+                        <div className="bg-(--card) rounded-lg p-8 border border-(--border)">
+                            <h3 className='text-xl md:text-2xl font-bold text-(--foreground) mb-6'>Frontend Development</h3>
                             <ul className='space-y-3'>
                                 {frontendSkills.map((skill) => (
-                                    <li key={skill} className='flex items-center gap-3'>
-                                        <span className='w-2 h-2 rounded-full border' />
+                                    <li key={skill} className='flex items-center gap-3 text-(--muted-foreground)'>
+                                        <span className='w-2 h-2 rounded-full bg-(--primary)' />
                                         {skill}
                                     </li>
                                 ))}
@@ -50,12 +50,12 @@ function Skills() {
                         </div>
 
                         {/* Tools & Technologies */}
-                        <div className="rounded-lg p-8 border">
-                            <h3>Tools & Technologies</h3>
+                        <div className="bg-(--card) rounded-lg p-8 border border-(--border)">
+                            <h3 className='text-xl md:text-2xl font-bold text-(--foreground) mb-6'>Tools & Technologies</h3>
                             <ul className='space-y-3'>
                                 {toolsSkills.map((skill) => (
-                                    <li key={skill} className='flex items-center gap-3'>
-                                        <span className='w-2 h-2 rounded-full border' />
+                                    <li key={skill} className='flex items-center gap-3 text-(--muted-foreground)'>
+                                        <span className='w-2 h-2 rounded-full bg-(--primary)' />
                                         {skill}
                                     </li>
                                 ))}
@@ -63,12 +63,12 @@ function Skills() {
                         </div>
 
                         {/* Soft Skills */}
-                        <div className="rounded-lg p-8 border">
-                            <h3>Soft Skills</h3>
+                        <div className="bg-(--card) rounded-lg p-8 border border-(--border)">
+                            <h3 className='text-xl md:text-2xl font-bold text-(--foreground) mb-6'>Soft Skills</h3>
                             <ul className='space-y-3'>
                                 {softSkills.map((skill) => (
-                                    <li key={skill} className='flex items-center gap-3'>
-                                        <span className='w-2 h-2 rounded-full border' />
+                                    <li key={skill} className='flex items-center gap-3 text-(--muted-foreground)'>
+                                        <span className='w-2 h-2 rounded-full bg-(--primary)' />
                                         {skill}
                                     </li>
                                 ))}
