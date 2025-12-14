@@ -41,11 +41,11 @@ function Header() {
 
                     {/* Mobile Navigation */}
                         {isOpen && (
-                            <div className="md:hidden absolute top-16 pb-4 space-y-2">
-                                <button className=' w-full text-left px-4 py-2 text-(--foreground) hover:bg-(--muted)' onClick={() => scrollToSection("about")}>About</button>
-                                <button className=' w-full text-left px-4 py-2 text-(--foreground) hover:bg-(--muted)' onClick={() => scrollToSection("skills")}>Skills</button>
-                                <button className=' w-full text-left px-4 py-2 text-(--foreground) hover:bg-(--muted)' onClick={() => scrollToSection("projects")}>Projects</button>
-                                <button className=' w-full text-left px-4 py-2 text-(--foreground) hover:bg-(--muted)' onClick={() => scrollToSection("contact")}>Contact</button>
+                            <div className="md:hidden absolute max-w-[50vw] h-screen right-0 top-16 pb-4 space-y-2 bg-(--secondary)">
+                                <button className=' w-full text-left px-4 py-2 text-(--foreground)' onClick={() => scrollToSection("about")}>About</button>
+                                <button className=' w-full text-left px-4 py-2 text-(--foreground)' onClick={() => scrollToSection("skills")}>Skills</button>
+                                <button className=' w-full text-left px-4 py-2 text-(--foreground)' onClick={() => scrollToSection("projects")}>Projects</button>
+                                <button className=' w-full text-left px-4 py-2 text-(--foreground)' onClick={() => scrollToSection("contact")}>Contact</button>
                             </div>
                         )}
                 </div>

@@ -91,8 +91,8 @@ function Contact() {
           {/* Social Links */}
 
           <div className="text-center">
-            <p className='font-semibold mb-4'>Or Find me on</p>
-            <div className="flex justify-center gap-6">
+            <p className='font-semibold mb-4 text-(--foreground)'>Or Find me on</p>
+            <div className="flex flex-col items-center md:flex-row justify-center gap-6">
               <a 
                 href="#"
                 className='inline-flex items-center gap-2'
