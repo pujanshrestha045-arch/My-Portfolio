@@ -15,7 +15,7 @@ function Hero() {
       <section className='min-h-screen flex items-center justify-center px-4 bg-linear-to-b from-(--background) via-(--background) to-(--muted)/20'>
         <div className="text-center container mx-auto">
             <div className='inline-block mb-8'>
-                <span className='font-semibold text-xl text-(--primary)'>From Structutal to Digital</span>
+                <span className='font-semibold text-xl text-(--primary)'>From Structural to Digital</span>
             </div>
             <h1 className='text-3xl md:text-5xl font-bold mb-6 text-balance text-(--foreground)'>Hello I'm <span className='text-(--primary)'>Pujan Shrestha</span></h1>
             <p className='text-lg md:text-2xl text-(--muted-foreground) text-balance mb-8'>Building responsive, user-centric web experiences with a unique perspective from structural engineering. Specializing in frontend development with HTML, CSS, JavaScript, and React.</p>
