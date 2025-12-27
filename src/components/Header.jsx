@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { ThemeToggle } from './Theme-toggle'
+
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false)
@@ -27,13 +27,13 @@ function Header() {
                             <button className='cursor-pointer text-(--foreground) hover:text-(--primary)' onClick={() => scrollToSection("skills")}>Skills</button>
                             <button className='cursor-pointer text-(--foreground) hover:text-(--primary)' onClick={() => scrollToSection("projects")}>Projects</button>
                             <button className='cursor-pointer text-(--foreground) hover:text-(--primary)' onClick={() => scrollToSection("contact")}>Contact</button>
-                            <ThemeToggle/>  
+                             
                         </div>
 
                         {/* Mobile Menu Button */}
                         <button className="md:hidden text-(--foreground)" onClick={() => setIsOpen(!isOpen)}>
                             <i className="bi bi-list text-xl"></i>
-                            <ThemeToggle/>  
+                            
                         </button>
                         
                                               
