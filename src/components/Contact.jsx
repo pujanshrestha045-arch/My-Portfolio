@@ -94,7 +94,7 @@ function Contact() {
             <p className='font-semibold mb-4 text-(--foreground)'>Or Find me on</p>
             <div className="flex flex-wrap items-center justify-center gap-6">
               <a 
-                href="#"
+                href="mailto:pujanshrestha045@gmail.com"
                 className='inline-flex items-center gap-2'
                 aria-label='Email'
               >
@@ -102,7 +102,7 @@ function Contact() {
                 <span>Email</span>
               </a>
               <a 
-                href="#"
+                href="https://www.linkedin.com/in/pujan-shrestha-56425733a/"
                 target='_blank'
                 rel='noopener noreferrer'
                 className='inline-flex items-center gap-2'
@@ -112,7 +112,7 @@ function Contact() {
                 <span>LinkedIn</span>
               </a>
               <a 
-                href="#"
+                href="https://github.com/pujanshrestha045-arch"
                 target='_blank'
                 rel='noopener noreferrer'
                 className='inline-flex items-center gap-2'

@@ -2,14 +2,32 @@ import React from 'react'
 
 function Projects() {
 
-  const projects= [{
-      title: "title",
+  const projects= [
+    {
+      title: "Cafe",
       description:
-        "description",
-      technologies: ["React"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },]
+        "A responsive cafe website built using plain html, css and js",
+      technologies: ["HTML", "CSS", "JS"],
+      liveUrl: "https://pujanshrestha045-arch.github.io/Cafe-Site/",
+      githubUrl: "https://github.com/pujanshrestha045-arch/Cafe-Site",
+    },
+    {
+      title: "News Portal",
+      description:
+        "Homepage for a news portal built using html, css and js integrating tailwind",
+      technologies: ["HTML", "CSS", "JS", "Tailwind"],
+      liveUrl: "https://pujanshrestha045-arch.github.io/News-Portal/",
+      githubUrl: "https://github.com/pujanshrestha045-arch/News-Portal",
+    },
+    {
+      title: "Corporate",
+      description:
+        "A Corporate site built using React with tailwind and fetching a dummy API",
+      technologies: ["HTML", "CSS", "React", "Tailwind"],
+      liveUrl: "https://pujanshrestha045-arch.github.io/Corporate/",
+      githubUrl: "https://github.com/pujanshrestha045-arch/Corporate",
+    },
+  ]
 
   return (
     <>
