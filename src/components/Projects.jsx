@@ -50,11 +50,11 @@ function Projects() {
                 </div>
 
                 <div className="flex gap-4">
-                  <a href="#" className='px-3 py-1 inline-flex items-center gap-2 font-semibold text-(--primary) hover:underline'>
+                  <a href={project.liveUrl} target='_blank' className='px-3 py-3 inline-flex items-center gap-2 font-semibold text-(--primary) hover:underline'>
                     Live Demo
                   </a>
 
-                  <a href="#" className='px-3 py-1 inline-flex items-center gap-2 font-semibold text-(--primary) hover:underline'>
+                  <a href={project.githubUrl} target='_blank' className='px-3 py-3 inline-flex items-center gap-2 font-semibold text-(--primary) hover:underline'>
                     GitHub
                   </a>
                 </div>
